@@ -1,10 +1,15 @@
 
 <view>
-  <navigator url="../viewDemo/viewDemo" open-type="navigate" hover-class="other-navigator-hover">
+  <!-- <navigator url="../viewDemo/viewDemo" open-type="navigate" hover-class="other-navigator-hover">
   viewDemo组件</navigator>
   <navigator url="../scrollView/scrollView" open-type="navigate" hover-class="other-navigator-hover">
   scrollView组件</navigator>
-  <navigator url="../swiper/swiper" open-type="navigate" hover-class="other-navigator-hover">
-  swiper组件</navigator>
+   <navigator url="../swiper/swiper" open-type="navigate" hover-class="other-navigator-hover">
+  swiper组件</navigator> -->
+  <button bindtap='gotoView'>viewDemo组件</button>
+  <button bindtap='gotoScrollView'>scrollView组件</button>
+  <button bindtap='gotoSwiper'>swiper组件</button>
+  <button bindtap='gotoMovable'>movable组件</button>
+  <button bindtap='gotoCoverview'>coverview组件</button>
 </view>
 

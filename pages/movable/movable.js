@@ -1,0 +1,19 @@
+// pages/movable/movable.js
+Page({
+  data:{
+    x:0,
+    y:0
+  },
+  tap:function(){
+    this.setData({
+      x:30,
+      y:30
+    })
+  },
+  onChange:function(e){
+    console.log('onChange',e);
+  },
+  onScale:function(e){
+    console.log(e)
+  }
+})
