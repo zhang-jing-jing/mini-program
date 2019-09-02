@@ -1,0 +1,31 @@
+<view>
+    <view>scrollView组件</view>
+    <view>竖向滚动组件</view>
+    <scroll-view style="height:200px;"
+    scroll-y 
+    bindscrolltoupper="upper"
+    bindscrolltolower="lower"
+    bindscroll="scroll"
+    scroll-into-view="{{toView}}"
+    scroll-top="{{scrollTop}}"
+    enable-back-to-top="true"
+    scroll-with-animation="true">
+        <view id="green" class="view-container green"></view>
+        <view id="red" class="view-container red"></view>
+        <view id="yellow" class="view-container yellow"></view>
+        <view id="black" class="view-container black"></view>
+    </scroll-view>
+    
+    <view class="btn-area">
+        <button bindtap="tap">click me to scroll into view</button>
+        <button bindtap="tapMove">click me to scroll into view</button>
+    </view>
+    <view>横向滚动组件</view>
+    <scroll-view class="scroll-view_H" scroll-x style="width: 100%">
+        <view id="green" class="view-container-h green"></view>
+        <view id="red" class="view-container-h red"></view>
+        <view id="yellow" class="view-container-h yellow"></view>
+        <view id="black" class="view-container-h black"></view>
+  </scroll-view>
+</view>
+

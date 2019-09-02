@@ -1,0 +1,10 @@
+
+<view>
+  <navigator url="../viewDemo/viewDemo" open-type="navigate" hover-class="other-navigator-hover">
+  viewDemo组件</navigator>
+  <navigator url="../scrollView/scrollView" open-type="navigate" hover-class="other-navigator-hover">
+  scrollView组件</navigator>
+  <navigator url="../swiper/swiper" open-type="navigate" hover-class="other-navigator-hover">
+  swiper组件</navigator>
+</view>
+

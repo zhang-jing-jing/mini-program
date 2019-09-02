@@ -1,0 +1,25 @@
+/* pages/scrollView/scrollView.wxss */
+.green{
+  background: green;
+}
+.red{
+  background: red;
+}
+.black{
+  background: black;
+}
+.yellow{
+  background: yellow;
+}
+.view-container{
+  height: 200px;
+}
+.scroll-view_H{
+  height: 200px;
+  white-space:nowrap;
+}
+.view-container-h{
+  display: inline-block;
+  width: 450rpx;
+  height: 200px;
+}

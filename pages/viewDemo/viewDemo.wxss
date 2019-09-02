@@ -1,0 +1,16 @@
+.view-parent-container{
+  width: 500rpx;
+  height: 400rpx;
+  background: red;
+}
+.view-container{
+  width: 250rpx;
+  height: 400rpx;
+  background: grey;
+}
+.hover-parent-container{
+  background: #ffffff;
+}
+.hover-container{
+  background: green;
+}

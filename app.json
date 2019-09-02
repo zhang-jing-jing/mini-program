@@ -1,0 +1,8 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/viewDemo/viewDemo",
+    "pages/scrollView/scrollView",
+    "pages/swiper/swiper"
+  ]
+}
