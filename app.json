@@ -5,7 +5,31 @@
     "pages/scrollView/scrollView",
     "pages/swiper/swiper",
     "pages/movable/movable",
-    "pages/cover-view/cover-view"
+    "pages/cover-view/cover-view",
+    "pages/icon/icon",
+    "pages/text/text",
+    "pages/rich-text/rich-text",
+    "pages/navigator/navigator",
+    "pages/video/video",
+    "pages/animation/animation"
   ],
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/text/text",
+        "text": "文本组件"
+      },
+      {
+        "pagePath": "pages/cover-view/cover-view",
+        "text": "coverview"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "webChat",
+    "navigationBarTextStyle": "black"
+  }
 }

@@ -11,5 +11,8 @@
   <button bindtap='gotoSwiper'>swiper组件</button>
   <button bindtap='gotoMovable'>movable组件</button>
   <button bindtap='gotoCoverview'>coverview组件</button>
+  <navigator open-type="navigateBack">
+    <button>返回页面</button>
+  </navigator>
 </view>
 

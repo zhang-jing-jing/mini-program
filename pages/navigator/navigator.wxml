@@ -1,0 +1,14 @@
+<view>
+    <navigator url="../index/index" hover-class="navigator-hover">
+        <button type="default">在新页面打开</button>
+    </navigator>
+    <navigator url="../index/index" redirect hover-class="navigator-hover">
+        <button type="default">在当前页面打开</button>
+    </navigator>
+    <navigator url="../text/text" open-type="switchTab" hover-class="navigator-hover">
+        <button type="default">switchTab打开</button>
+    </navigator>
+    <navigator url="../navigator/navigator" open-type="reLaunch" hover-class="navigator-hover">
+        <button type="default">重加载</button>
+    </navigator>
+</view>

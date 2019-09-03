@@ -1,4 +1,7 @@
 /* pages/cover-view/cover-view.wxss */
+#myVideo{
+  width: 750rpx;
+}
 .controls {
   position: relative;
   top: 80%;

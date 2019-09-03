@@ -1,0 +1,4 @@
+/* pages/navigator/navigator.wxss */
+.navigator-hover {
+  color:blue;
+}

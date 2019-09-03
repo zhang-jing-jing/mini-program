@@ -35,7 +35,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 6,
 			"list": [
 				{
 					"id": -1,
@@ -48,6 +48,41 @@
 					"id": -1,
 					"name": "coverView",
 					"pathName": "pages/cover-view/cover-view",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "icon",
+					"pathName": "pages/icon/icon",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "text",
+					"pathName": "pages/text/text",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "navigator",
+					"pathName": "pages/navigator/navigator",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "video",
+					"pathName": "pages/video/video",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "animation",
+					"pathName": "pages/animation/animation",
 					"scene": null
 				}
 			]
